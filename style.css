@@ -1,0 +1,30 @@
+.heading{
+    width: 100%;
+    font-size: 25px;
+    padding: 1%;
+    line-height: 40px;
+}
+.footer_style{
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+}
+.note{
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+word-spacing: -3px;
+font-weight: bolder;
+}
+canvas{
+    margin-top: 79px;
+    border: 10px  solid;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 50px linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(150,197,251,1) 49%);}
+    to{box-shadow: 5px 5px 50px linear-gradient(90deg, rgba(10,17,23,1) 16%, rgba(106,74,233,0.9559174011401436) 42%);}
+}
